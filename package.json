@@ -1,0 +1,9 @@
+{
+  "name": "@hugolovighi/rewind",
+  "version": "1.0.0",
+  "description": "React Tailwind frontend library",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
