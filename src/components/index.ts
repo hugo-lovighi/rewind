@@ -1,5 +1,4 @@
 export { Button } from "./button/Button";
-export { Button2 } from "./button/Button2";
 export { ButtonElement } from "./button/ButtonElement";
 export type { ButtonProps, ButtonElementProps } from './button/types'
 
@@ -7,7 +6,7 @@ export { Input } from "./input/Input";
 export { InputElement } from "./input/InputElement";
 export type { InputProps, InputElementProps } from './input/types'
 
-export { Select } from "./select/Select";
+export { default as Select } from "./select/Select";
 export type { SelectProps } from './select/types'
 
 export { Spinner } from "./loader/Spinner";

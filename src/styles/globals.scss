@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'vendors/react-select';
+
+@import 'base';
+@import 'utilities';
