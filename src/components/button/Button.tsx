@@ -1,5 +1,6 @@
 'use client'
 
+import i18next from '@/i18n'
 import { forwardRef } from 'react'
 import { cva } from 'class-variance-authority'
 
@@ -37,7 +38,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
                 {isLoading && (
                     <>
                         <Spinner className={cn('-ml-1 h-5 w-5', { 'mr-3': text || children })}/>
-                        {text || children}
+                        {(text || children) && <span>{i18next.t('loading')}&hellip;</span>}
                     </>
                 )}
                 {!isLoading && left && (
